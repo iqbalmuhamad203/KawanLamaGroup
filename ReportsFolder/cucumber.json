@@ -1,0 +1,404 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Verify that a user can log in with a valid username and password then log out",
+        "description": "",
+        "id": "login-and-logout-feature;verify-that-a-user-can-log-in-with-a-valid-username-and-password-then-log-out;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7295901000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already open website Cura Heroku App in browser",
+            "match": {
+              "location": "LoginandLogoutSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 709543501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user clicks the navigation hamburger button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickNavigationHamburgerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 985539400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click Login button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 917994800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username  John Doe",
+            "match": {
+              "arguments": [
+                {
+                  "val": " John Doe",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginandLogoutSteps.enterUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3731295100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter password g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginandLogoutSteps.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1221471700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the Login button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickLoginButton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3592542700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in",
+            "match": {
+              "location": "LoginandLogoutSteps.verifyLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 429144400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user clicks the navigation hamburger button for logout",
+            "match": {
+              "location": "LoginandLogoutSteps.clickNavigationHamburgerButton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2276638599,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click the Logout button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickLogoutButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1119520301,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify user should be logged out",
+            "match": {
+              "location": "LoginandLogoutSteps.verifyUserShouldbeLoggedOut()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login and logout feature",
+    "description": "",
+    "id": "login-and-logout-feature",
+    "keyword": "Feature",
+    "uri": "Include/features/LoginandLogout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Verify that a user can make an appointment with valid information",
+        "description": "",
+        "id": "make-an-appointment-with-valid-information;verify-that-a-user-can-make-an-appointment-with-valid-information;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5387003899,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already open website Cura Heroku App in browser",
+            "match": {
+              "location": "LoginandLogoutSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 444592001,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user clicks the navigation hamburger button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickNavigationHamburgerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1275796800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click Login button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827423200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username  John Doe",
+            "match": {
+              "arguments": [
+                {
+                  "val": " John Doe",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginandLogoutSteps.enterUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3541829900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter password g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM",
+            "match": {
+              "arguments": [
+                {
+                  "val": "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginandLogoutSteps.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1431996700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the Login button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickLoginButton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3471482901,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged in",
+            "match": {
+              "location": "LoginandLogoutSteps.verifyLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1178726799,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects the Facilities provided and chooses Seul Cura Healthcare Center",
+            "match": {
+              "location": "MakeAppointment.selectsFacilities()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445591800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the checkbox of  Apply for hospital readmission",
+            "match": {
+              "location": "MakeAppointment.clickCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 424215000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Selects the Healthcare Program provided and chooses Medicare",
+            "match": {
+              "location": "MakeAppointment.selectstheHealthcareProgram()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1049975900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Selects the Visit Date provided and choose the date of 22-06-2023",
+            "match": {
+              "location": "MakeAppointment.selectstheVisitDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 980100799,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Add a comment to the text area I want to check my healthy",
+            "match": {
+              "location": "MakeAppointment.addComment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 770467299,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click the Book  Appointment button",
+            "match": {
+              "location": "MakeAppointment.clickBookAppointmentbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 435898799,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User will be redirected to the confirmation page Confirm Appointment",
+            "match": {
+              "location": "MakeAppointment.confirmationPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342595000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the confirmation page is appropriate",
+            "match": {
+              "location": "MakeAppointment.confirmationPageisAppropriate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 440761501,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user clicks the navigation hamburger button for logout",
+            "match": {
+              "location": "LoginandLogoutSteps.clickNavigationHamburgerButton2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1162895499,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click the Logout button",
+            "match": {
+              "location": "LoginandLogoutSteps.clickLogoutButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1021818100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify user should be logged out",
+            "match": {
+              "location": "LoginandLogoutSteps.verifyUserShouldbeLoggedOut()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Make an appointment with valid information",
+    "description": "",
+    "id": "make-an-appointment-with-valid-information",
+    "keyword": "Feature",
+    "uri": "Include/features/MakeAppointment.feature",
+    "tags": []
+  }
+]
